@@ -1,0 +1,52 @@
+css
+Copy code
+  h1, h2 {
+    text-align: center;
+    color: white;
+  }
+  
+  form {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: balck;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  input[type="text"], select, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 16px;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  input[type="radio"] {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  #university {
+    display: block;
+    margin-bottom: 20px;
+  }

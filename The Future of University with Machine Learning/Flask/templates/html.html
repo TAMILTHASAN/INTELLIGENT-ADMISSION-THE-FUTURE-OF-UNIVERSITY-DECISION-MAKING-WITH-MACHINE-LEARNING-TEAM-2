@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UNIVERSITY ADMISSION PREDICTION SYSTEM</title>
+    <style>
+      body {
+        background-image: url("https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+        background-size: cover;
+        font-family: Arial, sans-serif;
+      }
+css
+Copy code
+  h1, h2 {
+    text-align: center;
+    color: white;
+  }
+  
+  form {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: balck;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  input[type="text"], select, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 16px;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  input[type="radio"] {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  #university {
+    display: block;
+    margin-bottom: 20px;
+  }
+</style>
+  </head>
+  <body>
+    <h1>UNIVERSITY ADMISSION PREDICTION SYSTEM</h1>
+    <h2>ENTER YOUR DETAILS AND GET PROBABILITY OF YOUR ADMISSION</h2>
+    <form>
+      <label for="gre">Enter GRE Score:</label>
+      <input type="text" id="gre" name="gre">
+      <label for="toefl">Enter TOEFL Score:</label>
+      <input type="text" id="toefl" name="toefl">
+      <label for="university">Select University:</label>
+      <select id="university" name="university">
+        <option value="1">University 1</option>
+        <option value="2">University 2</option>
+        <option value="3">University 3</option>
+        <option value="4">University 4</option>
+        <option value="5">University 5</option>
+      </select>
+      <label for="sop">Enter SOP:</label>
+      <textarea id="sop" name="sop"></textarea>
+      <label for="lop">Enter LOR:</label>
+      <textarea id="lop" name="lor"></textarea>
+      <label for="cgpa">Enter CGPA:</label>
+      <input type="text" id="cgpa" name="cgpa">
+      <h2>Research</h2>
+      <label for="research-yes">Yes</label>
+      <input type="radio" id="research-yes" name="research" value="yes">
+      <label for="research-no">No</label>
+      <input type="radio" id="research-no" name="research" value="no" checked>
+      <button type="submit">PREDICT</button>
+    </form>
+  </body>
+</html>
